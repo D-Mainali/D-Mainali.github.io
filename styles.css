@@ -351,7 +351,6 @@ a {
   -webkit-box-shadow: 0px 20px 80px navy;
           box-shadow: 0px 20px 80px navy;
   border-radius: 20px;
-  border-radius: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -371,7 +370,7 @@ a {
 }
 
 .project_link-img {
-  border-radius: 100%;
+  border-radius: 20px;
   width: 100%;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
