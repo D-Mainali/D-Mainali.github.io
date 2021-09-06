@@ -351,9 +351,12 @@ a {
   -webkit-box-shadow: 0px 20px 80px navy;
           box-shadow: 0px 20px 80px navy;
   border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -khtml-border-radius: 20px;
+  .transitionfix() {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0)
+}
   overflow: hidden;
   position: relative;
 }
@@ -374,9 +377,6 @@ a {
 
 .project_link-img {
   border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -khtml-border-radius: 20px;
   width: 100%;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -391,10 +391,6 @@ a {
           transform: scale(1.05);
   -webkit-filter: blur(5px);
           filter: blur(5px);
-  border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -khtml-border-radius: 20px;
 }
 
 .project_link:hover .project_desc {
