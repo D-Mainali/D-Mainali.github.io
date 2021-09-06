@@ -391,6 +391,10 @@ a {
           transform: scale(1.05);
   -webkit-filter: blur(5px);
           filter: blur(5px);
+  border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
 }
 
 .project_link:hover .project_desc {
