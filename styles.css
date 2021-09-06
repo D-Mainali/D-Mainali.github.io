@@ -367,7 +367,6 @@ a {
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   z-index: 2;
-  overflow: hidden;
 }
 
 .project_link-img {
@@ -378,6 +377,7 @@ a {
 
 .project_link:hover .project_link-wrapper:before {
   opacity: 0.7;
+  overflow: hidden;
 }
 
 .project_link:hover .project_link-img {
